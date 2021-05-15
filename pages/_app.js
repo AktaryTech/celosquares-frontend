@@ -5,9 +5,9 @@ import "../styles/globals.css";
 function MyApp({ Component, pageProps }) {
   return (
     <ContractKitProvider
-      // dappName="My awesome dApp"
-      // dappDescription="My awesome description"
-      // dappUrl="https://example.com"
+      dappName="My awesome dApp"
+      dappDescription="My awesome description"
+      dappUrl="https://example.com"
     >
       <Component {...pageProps} />
     </ContractKitProvider>

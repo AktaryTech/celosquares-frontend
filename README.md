@@ -1,3 +1,29 @@
+
+## The App
+
+Based on this nightmare: https://docs.celo.org/developer-guide/start/web-dapp
+
+1. `git@github.com:AktaryTech/celosquares-frontend.git`
+2. `yarn`
+3. `yarn dev`
+
+For celo blockchain:
+
+Based on this other nightmare: https://docs.celo.org/developer-guide/development-chain
+
+1. `git clone git@github.com:celo-org/celo-monorepo.git`
+2. `yarn && yarn build --ignore docs`
+
+
+
+
+
+
+
+
+
+****** ALL THE ORIGINAL STUFF *******
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
