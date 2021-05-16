@@ -8,11 +8,6 @@ export default function Admin() {
     <>
       <div className="container">
         <AppNavigation />
-        {/* charityAddr: "",
-    betSize: "",
-    quarterPoolAllocation: "",
-    finalPoolAllocation: "" */}
-
         <form onSubmit="Foo">
           <div className="flex flex-col">
             <div className="labelAndInput">
