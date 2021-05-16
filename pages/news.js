@@ -2,7 +2,7 @@ import React, { useState, useCallback, useEffect} from "react";
 import AppNavigation from "../components/AppNavigation";
 import TheAdmin from "../components/TheAdmin";
 import { useContractKit } from "@celo-tools/use-contractkit";
-import ABI from "../factory.json";
+import ABI from "../ABI/factory.json";
 import {useAppContext} from "../components/AppContext"
 
 export default function News() {

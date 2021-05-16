@@ -5,7 +5,7 @@ import cx from "classnames";
 import Image from 'next/image'
 
 export default function AppNavigation() {
-  const linkItems = [{name: "Home", link: "/"}, {name: "My Games", link: "/gameGrid"}, {name: "News", link: "/news"}, {name: "Admin", link: "/admin"}, {name: "About", link: "/about"}];
+  const linkItems = [{name: "Home", link: "/"}, {name: "My Games", link: "/gameGrid"}, {name: "News", link: "/news"}, {name: "How To Play", link: "https://lparker.gitbook.io/celosquares/"}];
 
   const listItems = linkItems.map((linkItem, index) => (
     <Link href={cx(`${linkItem.link}`)}>
