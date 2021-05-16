@@ -1,0 +1,79 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_scoracle",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address payable",
+        "name": "charityAddr",
+        "type": "address"
+      },
+      {
+        "internalType": "string",
+        "name": "firstTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "secondTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "team1id",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "team2id",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "gameid",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "betSize",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "quarterPoolAllocation",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "finalPoolAllocation",
+        "type": "uint256"
+      }
+    ],
+    "name": "createPool",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "scoracle",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
