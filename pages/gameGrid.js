@@ -4,7 +4,7 @@ import TheBox from "../components/TheBox";
 import styles from "../styles/GameGrid.module.css";
 
 export default function GameGrid() {
-  let gridItemValues = [];
+  let gridItemValues  = []
   for (let i = 1; i <= 100; i++) {
     gridItemValues.push(i);
   }
@@ -17,8 +17,13 @@ export default function GameGrid() {
     <>
       <div className="container">
         <AppNavigation />
-
-        <div class={styles.grid_container}>{gridItems}</div>
+        
+        <div class={styles.grid_container}>
+        
+        {gridItems}
+        
+        </div>
+    
       </div>
     </>
   );
