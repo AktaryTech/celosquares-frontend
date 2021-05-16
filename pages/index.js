@@ -14,7 +14,7 @@ export default function Home() {
 
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>CeloSquares - Play to Win!</title>
         <meta name="description" content="CeloSquares" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -23,16 +23,20 @@ export default function Home() {
       <AppNavigation />
       <main className="main">
       
-      <div className="title">
-        Some stuff
-      </div>
+      <div className="title w-3/5"> Use Celo to bet on your favorite teams and win big!!!</div>
+      <br />
       
-      <TheBox color="grey" className="w-1/3 -mb-8 z-10 p-4">FooBar</TheBox>
-      <TheBox color="orange" className="w-4/5 p-12">FooBar </TheBox>
-      <TheBox color="clear" className="h-64 p-12"></TheBox>
+      <TheBox color="grey" className="w-1/3 -mb-8 z-10 p-4">Join your friends in an online opportunity to win big while watching your favorite teams.</TheBox>
+      <TheBox color="orange" className="w-4/5 p-12"><ul>
+        <li> Uses Celo blockchain to buy squares to enter play </li>  -
+        <li> Free to organizers to run </li> -
+        <li> Well suited during social distancing </li> -
+        <li> Quarterly winners takes 20 % of pool and final winner takes 40%</li> 
+        </ul>  </TheBox>
+      <TheBox color="clear" className="h-64 p-12"><img src = "/images/football.jpg" alt = "Play to Win!"/></TheBox>
       
-      <footer className={cx(`bg-orange footer`)}>
-      </footer>
+      {/* <footer className={cx(`bg-orange footer`)}> */}
+      {/* </footer> */}
     
       </main>
       </div>
