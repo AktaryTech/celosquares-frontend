@@ -28,9 +28,15 @@ export default function News() {
     // setName(instance, "hello world!");
   }
 
-  // useEffect(() => {
-  //   initContract();
-  // }, []);
+  async function fetchGames () {
+    await fetch('http://localhost:5000/api/games/?api-key=dorahacks', {method: 'GET', mode: 'cors'})
+  .then(response => response.json())
+  .then(data => console.log(data[0]));
+  }
+  
+  useEffect(() => {
+    fetchGames();
+  }, []);
   
   const handleTheSubmit = (theObj) => {
     console.log(theObj)
