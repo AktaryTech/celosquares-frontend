@@ -11,6 +11,8 @@ For celo blockchain:
 
 Based on this other nightmare: https://docs.celo.org/developer-guide/development-chain
 
+*** THIS WILL ONLY RUN ON node 12. Install nvm to make the change ***
+
 1. `git clone git@github.com:celo-org/celo-monorepo.git`
 2. `yarn && yarn build --ignore docs`
 
