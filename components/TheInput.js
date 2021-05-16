@@ -9,7 +9,7 @@ export default function TheInput({ titleThing, nameThing, typeThing, defaultThin
         id={nameThing}
         name={nameThing}
         type={typeThing}
-        value={defaultThing}
+        defaultValue={defaultThing}
         required
       />
     </div>
