@@ -1,0 +1,14 @@
+.grid_container {
+  height: 90vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.grid_item {
+  color: var(--orange);
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem;
+}
