@@ -1,0 +1,23 @@
+.inpt {
+    border-color: rebeccapurple; 
+    border-width: thick;
+    border-style: dashed;
+}
+
+.lbl {
+    border-width: thick;
+    border-style: dashed;
+    color: red;
+}
+
+.labelAndInput { 
+    padding-top:20px;
+}
+
+form #submitBtn {
+    visibility: hidden;
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important
+  }
+  
