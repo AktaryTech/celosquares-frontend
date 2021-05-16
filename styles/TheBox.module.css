@@ -1,29 +1,42 @@
  
-  .myBox {
+  .myBox_orange, .myBox_grey, .myBox_white {
     margin: 1rem;
     padding: 1.5rem;
     text-align: center;
     color: inherit;
     text-decoration: none;
-    border: 1px solid #639;
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
-    width: 45%;
   }
   
-  .myBox:hover,
+  .myBox_orange {
+    background-color: #FEAA41;
+    border: 1px solid #eeeeee;
+  }
+  
+  .myBox_grey {
+    background-color: #eeeeee;
+    border: 1px solid #FEAA41;
+  }
+  
+  .myBox_white {
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+  }
+  
+  /* .myBox:hover,
   .myBox:focus,
   .myBox:active {
     color: #0070f3;
     border-color: #0070f3;
   }
-  
-  .myBox h2 {
+   */
+   .myBox_orange h2, .myBox_grey  h2, .myBox_white h2 {
     margin: 0 0 1rem 0;
     font-size: 1.5rem;
   }
   
-  .myBox p {
+  .myBox_orange p, .myBox_grey p, .myBox_white p {
     margin: 0;
     font-size: 1.25rem;
     line-height: 1.5;

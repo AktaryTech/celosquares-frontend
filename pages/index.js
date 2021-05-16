@@ -27,8 +27,12 @@ export default function Home() {
       <div className={styles.title}>
         Some stuff
       </div>
-      <TheBox>FooBar</TheBox>
+      
+      <TheBox color="grey" className="w-1/3 ">FooBar </TheBox>
+      <TheBox color="orange" className="w-2/3">FooBar </TheBox>
+      
       <div className={styles.card}>
+
       foobar
       </div>
       <footer className={cx(`border ${styles.footer}`)}>
