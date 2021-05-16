@@ -5,24 +5,22 @@ import cx from "classnames";
 import Image from 'next/image'
 
 export default function AppNavigation() {
-  const linkItems = [{name: "Home", link: "/"}, {name: "Claims", link: "/claims"}];
+  const linkItems = [{name: "Home", link: "/"}, {name: "My Games", link: "/claims"}, {name: "News", link: "/news"}, {name: "About", link: "/about"}];
 
   const listItems = linkItems.map((linkItem, index) => (
     <Link href={cx(`${linkItem.link}`)}>
-      <li key={index} className="mr-8">
+      <li key={index} className="mr-8 text-xl">
         {linkItem.name}
       </li>
     </Link>
   ));
 
   return (
-    <div className="w-full flex">
+    <div className="w-full flex items-center">
       {" "}
-      <Image
+      <img 
         src="/images/CELOSQUARES.png"
-        height={65}
-        width={353}
-        className="mr-8"
+    className="mr-8"
       />
       <ul className={cx("flex cursor-pointer")}>{listItems}</ul>
     </div>

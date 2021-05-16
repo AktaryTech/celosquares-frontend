@@ -28,16 +28,11 @@ export default function Home() {
         Some stuff
       </div>
       
-      <TheBox color="grey" className="w-1/3 ">FooBar </TheBox>
-      <TheBox color="orange" className="w-2/3">FooBar </TheBox>
+      <TheBox color="grey" className="w-1/3 -mb-8 z-10 p-4">FooBar</TheBox>
+      <TheBox color="orange" className="w-4/5 p-12">FooBar </TheBox>
+      <TheBox color="clear" className="h-64 p-12"></TheBox>
       
-      <div className={styles.card}>
-
-      foobar
-      </div>
-      <footer className={cx(`border ${styles.footer}`)}>
-    
-      footer stuff
+      <footer className={cx(`bg-orange ${styles.footer}`)}>
       </footer>
     
       </main>
