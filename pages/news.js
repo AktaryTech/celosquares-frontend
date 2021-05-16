@@ -13,15 +13,14 @@ export default function News() {
     const factoryAddy = "0x2e7452a467b868c6c44c3eac159f7fb9b2c7c1c0";
 
     const ss = useAppContext.sharedState
-    console.log("foo:", ss)
     
 
     let contract = new kit.web3.eth.Contract(ABI, factoryAddy);
-    console.log(useAppContext.sharedState.charityAddr )
+    // console.log(useAppContext.sharedState.charityAddr )
 
     // const txObject = await contract.methods.createPool(newName)
 
-    console.log(contract);
+    // console.log(contract);
 
     // getName(instance);
     // setName(instance, "hello world!");
